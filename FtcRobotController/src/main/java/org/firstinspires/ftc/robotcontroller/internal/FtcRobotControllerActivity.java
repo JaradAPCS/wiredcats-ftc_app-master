@@ -105,23 +105,51 @@ import java.io.File;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+import ftc.vision.BeaconProcessor;
 import ftc.vision.FrameGrabber;
 
 public class FtcRobotControllerActivity extends Activity {
   ////////////// START VISION PROCESSING CODE //////////////
 
+  static final int FRAME_WIDTH_REQUEST = 176;
+  static final int FRAME_HEIGHT_REQUEST = 144;
+
   // Loads camera view of OpenCV for us to use. This lets us see using OpenCV
   private CameraBridgeViewBase cameraBridgeViewBase;
 
+  //manages getting one frame at a time
+  public static FrameGrabber frameGrabber = null;
+
+  //set up the frameGrabber
   void myOnCreate(){
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
     cameraBridgeViewBase = (JavaCameraView) findViewById(R.id.show_camera_activity_java_surface_view);
-    new FrameGrabber(cameraBridgeViewBase);
+    frameGrabber = new FrameGrabber(cameraBridgeViewBase, FRAME_WIDTH_REQUEST, FRAME_HEIGHT_REQUEST);
+    frameGrabber.setImageProcessor(new BeaconProcessor());
+    frameGrabber.setSaveImages(true);
   }
 
   //when the "Grab" button is pressed
   public void frameButtonOnClick(View v){
+    frameGrabber.grabSingleFrame();
+    while (!frameGrabber.isResultReady()) {
+      try {
+        Thread.sleep(5); //sleep for 5 milliseconds
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
+    Object result = frameGrabber.getResult();
+    ((TextView)findViewById(R.id.resultText)).setText(result.toString());
+  }
+
+  void myOnWindowFocusChanged(boolean hasFocus){
+    if (hasFocus) {
+      frameGrabber.stopFrameGrabber();
+    } else {
+      frameGrabber.throwAwayFrames();
+    }
   }
 
   void myOnPause(){
@@ -521,6 +549,9 @@ public class FtcRobotControllerActivity extends Activity {
   @Override
   public void onWindowFocusChanged(boolean hasFocus){
     super.onWindowFocusChanged(hasFocus);
+    ////////////// START VISION PROCESSING CODE //////////////
+    myOnWindowFocusChanged(hasFocus);
+    ////////////// END VISION PROCESSING CODE //////////////
     // When the window loses focus (e.g., the action overflow is shown),
     // cancel any pending hide action. When the window gains focus,
     // hide the system UI.

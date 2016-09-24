@@ -32,12 +32,12 @@
         "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/simple_device.xml"
     },
     {
-        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/pwms.xml",
-        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
-    },
-    {
         "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/activity_ftc_configuration.xml",
         "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_configuration.xml"
+    },
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/pwms.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
     },
     {
         "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/motor.xml",
@@ -136,12 +136,12 @@
         "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/red_line.xml"
     },
     {
-        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/matrix_devices.xml",
-        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/matrix_devices.xml"
-    },
-    {
         "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/analog_outputs.xml",
         "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_outputs.xml"
+    },
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/matrix_devices.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/matrix_devices.xml"
     },
     {
         "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/layout/button_list.xml",
