@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/menu/menu_server.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
+    },
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/wiredcats-ftc_app-master/FtcRobotController/unspecified/res/menu/ftc_robot_controller.xml"
+    },
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/TeamCode/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
+    }
+]

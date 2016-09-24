@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/button_shape.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    }
+]

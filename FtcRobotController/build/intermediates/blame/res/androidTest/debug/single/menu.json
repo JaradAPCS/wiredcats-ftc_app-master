@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu/main_menu.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu/ftc_robot_controller.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
+    },
+    {
+        "merged": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu/menu_server.xml",
+        "source": "/home/jb/Downloads/wiredcats-ftc_app-master/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
+    }
+]
