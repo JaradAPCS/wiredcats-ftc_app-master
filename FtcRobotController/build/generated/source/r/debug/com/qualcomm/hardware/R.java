@@ -19,8 +19,8 @@ public final class R {
 		public static int white = 0x7f09000e;
 	}
 	public static final class id {
-		public static int loadingIndicator = 0x7f0c008f;
-		public static int loadingIndicatorOverlay = 0x7f0c008e;
+		public static int loadingIndicator = 0x7f0c0096;
+		public static int loadingIndicatorOverlay = 0x7f0c0095;
 	}
 	public static final class layout {
 		public static int loading_indicator_overlay = 0x7f03001d;
